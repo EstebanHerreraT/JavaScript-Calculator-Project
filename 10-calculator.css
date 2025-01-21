@@ -1,0 +1,150 @@
+.button1{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .button2{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .button3{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .buttonPlus{
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    font-size: 25px;
+    border-radius: 30px;
+
+  }
+  .button4{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .button5{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .button6{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .buttonMinus{
+    background-color: orange;
+    color: white;
+    padding: 3px 12px;
+    border: none;
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  .button7{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .button8{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .button9{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .buttonTimes{
+    background-color: orange;
+    color: white;
+    padding: 3px 12px;
+    border: none;
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  .button0{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .buttonPoint{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 14px;
+    margin-right: 10px;
+  }
+  .buttonEqual{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  .buttonDivide{
+    background-color: orange;
+    color: white;
+    padding: 3px 12px;
+    border: none;
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  .buttonClear{
+    background-color: grey;
+    color: white;
+    border-radius: 30px;
+    font-size: 15px;
+    border: none;
+    padding: 12px 5px;
+    margin-right: 10px;
+  }

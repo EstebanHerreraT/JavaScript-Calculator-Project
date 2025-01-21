@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator Project</title>
+    <link rel = "stylesheet"
+    href="styles/10-calculator.css">
+  </head>
+  <body>
+
+    <p class="js-calculation"></p>
+
+    <p>
+      <button onclick="
+        updateCalculation('1');
+      " class = "button1">1</button>
+
+      <button onclick="
+        updateCalculation('2');
+      " class = "button2">2</button>
+
+      <button onclick="
+        updateCalculation('3');
+      " class = "button3">3</button>
+
+      <button onclick="
+        updateCalculation(' + ');
+      " class = "buttonPlus">+</button>
+    </p>
+
+    <p>
+      <button onclick="
+        updateCalculation('4');
+      " class = "button4">4</button>
+
+      <button onclick="
+        updateCalculation('5');
+      " class = "button5">5</button>
+
+      <button onclick="
+        updateCalculation('6');
+      " class = "button6">6</button>
+
+      <button onclick="
+        updateCalculation(' - ');
+      " class = "buttonMinus">-</button>
+    </p>
+
+    <p>
+      <button onclick="
+        updateCalculation('7');
+      " class = "button7">7</button>
+
+      <button onclick="
+        updateCalculation('8');
+      " class="button8">8</button>
+
+      <button onclick="
+        updateCalculation('9');
+      "class = "button9">9</button>
+
+      <button onclick="
+        updateCalculation(' * ');
+      " class = "buttonTimes">*</button>
+    </p>
+
+    <p>
+      <button onclick="
+        updateCalculation('0');
+      " class = "button0">0</button>
+
+      <button onclick="
+        updateCalculation('.');
+      " class="buttonPoint">.</button>
+
+      <button onclick="
+        // Note: eval() takes a string and runs it as code.
+        calculation = eval(calculation);
+
+        // Display the calculation on the page
+        displayCalculation();
+
+        localStorage.setItem('calculation', calculation);
+      " class = "buttonEqual">=</button>
+
+      <button onclick="
+        updateCalculation(' / ');
+      " class = "buttonDivide">/</button>
+    </p>
+
+    <p>
+      <button onclick="
+        calculation = '';
+
+        displayCalculation();
+
+        localStorage.setItem('calculation', calculation);
+      " class = "buttonClear">Clear</button>
+    </p>
+
+    <script src = "scripts/10-calculator-script.js"></script>
+  </body>
+</html>
